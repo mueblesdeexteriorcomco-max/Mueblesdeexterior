@@ -7,13 +7,19 @@
     <meta name="description" content="Especialistas en muebles de exterior, muebles para terraza, jardín y balcón fabricados en rattan sintético y materiales resistentes a la intemperie.">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .outdoor-img {
+        .outdoor-card {
             width: 100%;
             height: 280px;
-            object-fit: cover;
             border-radius: 1rem;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-            background-color: #f3f4f6;
+            background: linear-gradient(135deg, #e6f4ea 0%, #ceead6 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid #a8dab5;
         }
     </style>
 </head>
@@ -33,7 +39,7 @@
         </div>
     </header>
 
-    <!-- Pantalla Inicial (Hero) con Muebles de Exterior Reales (Ratán y Terraza Abierta) -->
+    <!-- Pantalla Inicial (Hero) con Muebles de Exterior Garantizados -->
     <section class="py-20 max-w-7xl mx-auto px-6">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div class="space-y-6">
@@ -45,13 +51,17 @@
                     Transforma tus espacios abiertos. Especialistas absolutos en <strong>muebles para terraza, jardín, piscina y balcón</strong> fabricados con tejidos sintéticos y Rattan de máxima durabilidad ante la intemperie.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 pt-4">
-                    <a href="#galeria" class="bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl text-center shadow-lg">Ver Colección de Fotos</a>
+                    <a href="#galeria" class="bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl text-center shadow-lg">Ver Colección</a>
                     <a href="#contacto" class="bg-stone-100 text-stone-900 font-bold px-8 py-4 rounded-xl text-center">Asesoría Directa</a>
                 </div>
             </div>
             <div>
-                <!-- Imagen principal 100% de exterior: Terraza abierta con mobiliario de ratán y cojines -->
-                <img src="https://images.unsplash.com/photo-1600585154340-bc6161a56a0c?auto=format&fit=crop&w=1200&q=80" alt="Muebles de exterior para terraza en ratán sintético" class="w-full h-[420px] object-cover rounded-3xl shadow-2xl">
+                <!-- Tarjeta Gráfica Principal de Terraza y Ratán -->
+                <div class="w-full h-[420px] rounded-3xl shadow-2xl bg-gradient-to-br from-emerald-800 to-stone-900 flex flex-col items-center justify-center p-8 text-white text-center border-4 border-emerald-600">
+                    <svg class="w-24 h-24 mb-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+                    <h3 class="text-2xl font-black mb-2">Terraza & Ratán Sintético</h3>
+                    <p class="text-emerald-200 text-sm max-w-sm">Mobiliario especializado exclusivamente para exteriores, piscinas, jardines y balcones expuestos al sol y la lluvia.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -61,13 +71,13 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto mb-12">
                 <h2 class="text-3xl font-black text-stone-900 mb-3">Salas de Exterior y Terrazas</h2>
-                <p class="text-stone-600 text-lg">Conjuntos modulares, poltronas y sofás de ratán sintético diseñados estrictamente para intemperie.</p>
+                <p class="text-stone-600 text-lg">Conjuntos modulares y sofás de ratán sintético diseñados estrictamente para intemperie.</p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div><img src="https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=800&q=80" alt="Sala modular de terraza ratán" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Muebles de jardín exterior" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Sofá patio y piscina" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" alt="Terraza exterior de lujo" class="outdoor-img"></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">🛋️</span><span class="font-bold text-emerald-900">Sala Modular Terraza</span><span class="text-xs text-emerald-700">Ratán sintético impermeable</span></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">🌿</span><span class="font-bold text-emerald-900">Sofá de Jardín</span><span class="text-xs text-emerald-700">Estructura en aluminio</span></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">☀️</span><span class="font-bold text-emerald-900">Poltrona de Piscina</span><span class="text-xs text-emerald-700">Resistente a rayos UV</span></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">🏡</span><span class="font-bold text-emerald-900">Set Pérgola Lujo</span><span class="text-xs text-emerald-700">Cojinería náutica</span></div>
             </div>
         </div>
     </section>
@@ -77,13 +87,13 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto mb-12">
                 <h2 class="text-3xl font-black text-stone-900 mb-3">Comedores de Jardín y Patios</h2>
-                <p class="text-stone-600 text-lg">Mesas robustas con tapas de vidrio templado y sillas tejidas ideales para áreas abiertas.</p>
+                <p class="text-stone-600 text-lg">Mesas robustas con vidrio templado y sillas tejidas ideales para áreas abiertas.</p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div><img src="https://images.unsplash.com/photo-1533779283484-8ab49400033e?auto=format&fit=crop&w=800&q=80" alt="Comedor terraza exterior" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80" alt="Muebles comedor jardín" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80" alt="Set de comedor exterior" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Muebles zona piscina" class="outdoor-img"></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">🪑</span><span class="font-bold text-emerald-900">Comedor 6 Puestos</span><span class="text-xs text-emerald-700">Exterior terraza</span></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">🍽️</span><span class="font-bold text-emerald-900">Mesa Jardín Ratán</span><span class="text-xs text-emerald-700">Alta durabilidad</span></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">🌳</span><span class="font-bold text-emerald-900">Set Comedor Patio</span><span class="text-xs text-emerald-700">Estructura anticorrosiva</span></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">💧</span><span class="font-bold text-emerald-900">Comedor Zona Piscina</span><span class="text-xs text-emerald-700">Diseño moderno</span></div>
             </div>
         </div>
     </section>
@@ -93,13 +103,13 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto mb-12">
                 <h2 class="text-3xl font-black text-stone-900 mb-3">Muebles para Balcón</h2>
-                <p class="text-stone-600 text-lg">Conjuntos compactos, mesas auxiliares y sillas ergonómicas especiales para balcones de apartamentos.</p>
+                <p class="text-stone-600 text-lg">Conjuntos compactos, mesas auxiliares y sillas ergonómicas especiales para balcones.</p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div><img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80" alt="Muebles para balcón" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" alt="Sillas de balcón" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80" alt="Sofá pequeño balcón" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=800&q=80" alt="Set exterior balcón" class="outdoor-img"></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">☕</span><span class="font-bold text-emerald-900">Set Bistró Balcón</span><span class="text-xs text-emerald-700">Espacios compactos</span></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">🪑</span><span class="font-bold text-emerald-900">Sillas Auxiliares</span><span class="text-xs text-emerald-700">Ratán sintético</span></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">🌇</span><span class="font-bold text-emerald-900">Sofá Pequeño Balcón</span><span class="text-xs text-emerald-700">Confort al aire libre</span></div>
+                <div class="outdoor-card"><span class="text-4xl mb-2">🪴</span><span class="font-bold text-emerald-900">Set Minimalista</span><span class="text-xs text-emerald-700">Diseño urbano</span></div>
             </div>
         </div>
     </section>
@@ -112,14 +122,14 @@
                 <p class="text-stone-600 text-lg">Inspiración visual de montajes reales en terrazas, jardines y áreas sociales al aire libre.</p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                <div><img src="https://images.unsplash.com/photo-1600585154340-bc6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Ext 1" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=800&q=80" alt="Ext 2" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Ext 3" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1533779283484-8ab49400033e?auto=format&fit=crop&w=800&q=80" alt="Ext 4" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Ext 5" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Ext 6" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80" alt="Ext 7" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" alt="Ext 8" class="outdoor-img"></div>
+                <div class="outdoor-card"><span class="text-3xl mb-1">🏡</span><span class="text-sm font-bold text-emerald-900">Proyecto Terraza 01</span></div>
+                <div class="outdoor-card"><span class="text-3xl mb-1">🌿</span><span class="text-sm font-bold text-emerald-900">Jardín Residencial 02</span></div>
+                <div class="outdoor-card"><span class="text-3xl mb-1">🏊‍♂️</span><span class="text-sm font-bold text-emerald-900">Área Piscina 03</span></div>
+                <div class="outdoor-card"><span class="text-3xl mb-1">🌤️</span><span class="text-sm font-bold text-emerald-900">Pérgola Abierta 04</span></div>
+                <div class="outdoor-card"><span class="text-3xl mb-1">🪑</span><span class="text-sm font-bold text-emerald-900">Sala Exterior 05</span></div>
+                <div class="outdoor-card"><span class="text-3xl mb-1">🍽️</span><span class="text-sm font-bold text-emerald-900">Comedor Patio 06</span></div>
+                <div class="outdoor-card"><span class="text-3xl mb-1">🏙️</span><span class="text-sm font-bold text-emerald-900">Balcón Moderno 07</span></div>
+                <div class="outdoor-card"><span class="text-3xl mb-1">✨</span><span class="text-sm font-bold text-emerald-900">Mueble Ratán 08</span></div>
             </div>
         </div>
     </section>
