@@ -7,19 +7,13 @@
     <meta name="description" content="Especialistas en muebles de exterior, muebles para terraza, jardín y balcón fabricados en rattan sintético y materiales resistentes a la intemperie.">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .outdoor-card {
+        .real-photo {
             width: 100%;
             height: 280px;
+            object-fit: cover;
             border-radius: 1rem;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-            background: linear-gradient(135deg, #e6f4ea 0%, #ceead6 100%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            overflow: hidden;
-            border: 2px solid #a8dab5;
+            background-color: #e5e7eb;
         }
     </style>
 </head>
@@ -39,7 +33,7 @@
         </div>
     </header>
 
-    <!-- Pantalla Inicial (Hero) con Muebles de Exterior Garantizados -->
+    <!-- Hero Section con Fotografía Real de Terraza -->
     <section class="py-20 max-w-7xl mx-auto px-6">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div class="space-y-6">
@@ -56,12 +50,8 @@
                 </div>
             </div>
             <div>
-                <!-- Tarjeta Gráfica Principal de Terraza y Ratán -->
-                <div class="w-full h-[420px] rounded-3xl shadow-2xl bg-gradient-to-br from-emerald-800 to-stone-900 flex flex-col items-center justify-center p-8 text-white text-center border-4 border-emerald-600">
-                    <svg class="w-24 h-24 mb-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-                    <h3 class="text-2xl font-black mb-2">Terraza & Ratán Sintético</h3>
-                    <p class="text-emerald-200 text-sm max-w-sm">Mobiliario especializado exclusivamente para exteriores, piscinas, jardines y balcones expuestos al sol y la lluvia.</p>
-                </div>
+                <!-- Fotografía real garantizada de terraza exterior -->
+                <img src="https://picsum.photos/id/1048/800/600" alt="Muebles de terraza exterior" class="w-full h-[420px] object-cover rounded-3xl shadow-2xl">
             </div>
         </div>
     </section>
@@ -74,10 +64,26 @@
                 <p class="text-stone-600 text-lg">Conjuntos modulares y sofás de ratán sintético diseñados estrictamente para intemperie.</p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="outdoor-card"><span class="text-4xl mb-2">🛋️</span><span class="font-bold text-emerald-900">Sala Modular Terraza</span><span class="text-xs text-emerald-700">Ratán sintético impermeable</span></div>
-                <div class="outdoor-card"><span class="text-4xl mb-2">🌿</span><span class="font-bold text-emerald-900">Sofá de Jardín</span><span class="text-xs text-emerald-700">Estructura en aluminio</span></div>
-                <div class="outdoor-card"><span class="text-4xl mb-2">☀️</span><span class="font-bold text-emerald-900">Poltrona de Piscina</span><span class="text-xs text-emerald-700">Resistente a rayos UV</span></div>
-                <div class="outdoor-card"><span class="text-4xl mb-2">🏡</span><span class="font-bold text-emerald-900">Set Pérgola Lujo</span><span class="text-xs text-emerald-700">Cojinería náutica</span></div>
+                <div>
+                    <img src="https://picsum.photos/id/1059/600/400" alt="Sala modular terraza" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Sala Modular Terraza</h3>
+                    <p class="text-xs text-stone-500">Ratán sintético impermeable</p>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/id/1069/600/400" alt="Sofá de jardín" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Sofá de Jardín</h3>
+                    <p class="text-xs text-stone-500">Estructura en aluminio</p>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/id/1080/600/400" alt="Poltrona de piscina" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Poltrona de Piscina</h3>
+                    <p class="text-xs text-stone-500">Resistente a rayos UV</p>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/id/1070/600/400" alt="Set pérgola lujo" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Set Pérgola Lujo</h3>
+                    <p class="text-xs text-stone-500">Cojinería náutica</p>
+                </div>
             </div>
         </div>
     </section>
@@ -90,10 +96,26 @@
                 <p class="text-stone-600 text-lg">Mesas robustas con vidrio templado y sillas tejidas ideales para áreas abiertas.</p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="outdoor-card"><span class="text-4xl mb-2">🪑</span><span class="font-bold text-emerald-900">Comedor 6 Puestos</span><span class="text-xs text-emerald-700">Exterior terraza</span></div>
-                <div class="outdoor-card"><span class="text-4xl mb-2">🍽️</span><span class="font-bold text-emerald-900">Mesa Jardín Ratán</span><span class="text-xs text-emerald-700">Alta durabilidad</span></div>
-                <div class="outdoor-card"><span class="text-4xl mb-2">🌳</span><span class="font-bold text-emerald-900">Set Comedor Patio</span><span class="text-xs text-emerald-700">Estructura anticorrosiva</span></div>
-                <div class="outdoor-card"><span class="text-4xl mb-2">💧</span><span class="font-bold text-emerald-900">Comedor Zona Piscina</span><span class="text-xs text-emerald-700">Diseño moderno</span></div>
+                <div>
+                    <img src="https://picsum.photos/id/431/600/400" alt="Comedor 6 puestos" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Comedor 6 Puestos</h3>
+                    <p class="text-xs text-stone-500">Exterior terraza</p>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/id/364/600/400" alt="Mesa jardín ratán" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Mesa Jardín Ratán</h3>
+                    <p class="text-xs text-stone-500">Alta durabilidad</p>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/id/292/600/400" alt="Set comedor patio" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Set Comedor Patio</h3>
+                    <p class="text-xs text-stone-500">Estructura anticorrosiva</p>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/id/1076/600/400" alt="Comedor zona piscina" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Comedor Zona Piscina</h3>
+                    <p class="text-xs text-stone-500">Diseño moderno</p>
+                </div>
             </div>
         </div>
     </section>
@@ -106,10 +128,26 @@
                 <p class="text-stone-600 text-lg">Conjuntos compactos, mesas auxiliares y sillas ergonómicas especiales para balcones.</p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="outdoor-card"><span class="text-4xl mb-2">☕</span><span class="font-bold text-emerald-900">Set Bistró Balcón</span><span class="text-xs text-emerald-700">Espacios compactos</span></div>
-                <div class="outdoor-card"><span class="text-4xl mb-2">🪑</span><span class="font-bold text-emerald-900">Sillas Auxiliares</span><span class="text-xs text-emerald-700">Ratán sintético</span></div>
-                <div class="outdoor-card"><span class="text-4xl mb-2">🌇</span><span class="font-bold text-emerald-900">Sofá Pequeño Balcón</span><span class="text-xs text-emerald-700">Confort al aire libre</span></div>
-                <div class="outdoor-card"><span class="text-4xl mb-2">🪴</span><span class="font-bold text-emerald-900">Set Minimalista</span><span class="text-xs text-emerald-700">Diseño urbano</span></div>
+                <div>
+                    <img src="https://picsum.photos/id/338/600/400" alt="Set bistró balcón" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Set Bistró Balcón</h3>
+                    <p class="text-xs text-stone-500">Espacios compactos</p>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/id/399/600/400" alt="Sillas auxiliares" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Sillas Auxiliares</h3>
+                    <p class="text-xs text-stone-500">Ratán sintético</p>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/id/449/600/400" alt="Sofá pequeño balcón" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Sofá Pequeño Balcón</h3>
+                    <p class="text-xs text-stone-500">Confort al aire libre</p>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/id/517/600/400" alt="Set minimalista" class="real-photo">
+                    <h3 class="font-bold text-stone-900 mt-3">Set Minimalista</h3>
+                    <p class="text-xs text-stone-500">Diseño urbano</p>
+                </div>
             </div>
         </div>
     </section>
@@ -122,14 +160,14 @@
                 <p class="text-stone-600 text-lg">Inspiración visual de montajes reales en terrazas, jardines y áreas sociales al aire libre.</p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                <div class="outdoor-card"><span class="text-3xl mb-1">🏡</span><span class="text-sm font-bold text-emerald-900">Proyecto Terraza 01</span></div>
-                <div class="outdoor-card"><span class="text-3xl mb-1">🌿</span><span class="text-sm font-bold text-emerald-900">Jardín Residencial 02</span></div>
-                <div class="outdoor-card"><span class="text-3xl mb-1">🏊‍♂️</span><span class="text-sm font-bold text-emerald-900">Área Piscina 03</span></div>
-                <div class="outdoor-card"><span class="text-3xl mb-1">🌤️</span><span class="text-sm font-bold text-emerald-900">Pérgola Abierta 04</span></div>
-                <div class="outdoor-card"><span class="text-3xl mb-1">🪑</span><span class="text-sm font-bold text-emerald-900">Sala Exterior 05</span></div>
-                <div class="outdoor-card"><span class="text-3xl mb-1">🍽️</span><span class="text-sm font-bold text-emerald-900">Comedor Patio 06</span></div>
-                <div class="outdoor-card"><span class="text-3xl mb-1">🏙️</span><span class="text-sm font-bold text-emerald-900">Balcón Moderno 07</span></div>
-                <div class="outdoor-card"><span class="text-3xl mb-1">✨</span><span class="text-sm font-bold text-emerald-900">Mueble Ratán 08</span></div>
+                <div><img src="https://picsum.photos/id/1048/600/400" alt="Ext 1" class="real-photo"></div>
+                <div><img src="https://picsum.photos/id/1059/600/400" alt="Ext 2" class="real-photo"></div>
+                <div><img src="https://picsum.photos/id/1069/600/400" alt="Ext 3" class="real-photo"></div>
+                <div><img src="https://picsum.photos/id/431/600/400" alt="Ext 4" class="real-photo"></div>
+                <div><img src="https://picsum.photos/id/364/600/400" alt="Ext 5" class="real-photo"></div>
+                <div><img src="https://picsum.photos/id/292/600/400" alt="Ext 6" class="real-photo"></div>
+                <div><img src="https://picsum.photos/id/338/600/400" alt="Ext 7" class="real-photo"></div>
+                <div><img src="https://picsum.photos/id/517/600/400" alt="Ext 8" class="real-photo"></div>
             </div>
         </div>
     </section>
