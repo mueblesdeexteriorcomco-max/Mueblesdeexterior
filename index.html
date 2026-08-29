@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muebles de Exterior y Rattan Sintético | Terrazas y Jardines</title>
-    <meta name="description" content="Especialistas en muebles de exterior, muebles para terraza, jardín y balcón fabricados en rattan sintético y materiales resistentes a la intemperie.">
+    <title>Muebles de Exterior, Terrazas y Jardín | Ratán Sintético de Lujo</title>
+    <meta name="description" content="Especialistas en muebles de exterior, muebles para terraza, jardín, piscinas y balcón. Fabricación en ratán sintético de alta durabilidad y diseño exclusivo.">
+    <meta name="keywords" content="muebles de exterior, muebles para exteriores, muebles para balcón, muebles para jardín, muebles para terraza, ratán sintético, salas de exterior">
+    
+    <!-- Open Graph / Redes e IA -->
+    <meta property="og:title" content="Muebles de Exterior y Rattan Sintético | Terrazas y Jardines">
+    <meta property="og:description" content="Transforma tus espacios al aire libre con mobiliario especializado para terrazas, jardines y balcones.">
+    <meta property="og:type" content="website">
+
+    <!-- Schema.org Structured Data para Google y Motores de IA -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FurnitureStore",
+      "name": "Muebles de Exterior",
+      "description": "Especialistas en diseño y fabricación de muebles de exterior, terrazas, jardines y balcones en ratán sintético.",
+      "priceRange": "$$",
+      "areaServed": "Colombia",
+      "telephone": "+573000000000"
+    }
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .outdoor-img {
@@ -14,178 +34,235 @@
             border-radius: 1rem;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
             background-color: #e5e7eb;
+            transition: transform 0.3s ease;
+        }
+        .outdoor-img:hover {
+            transform: scale(1.02);
         }
     </style>
 </head>
 <body class="bg-white text-stone-900 font-sans">
 
-    <!-- Header -->
-    <header class="sticky top-0 z-50 bg-white border-b border-stone-200 shadow-sm">
+    <!-- Header / Navegación SEO -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200 shadow-sm">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <a href="#" class="text-2xl font-black text-stone-900">Muebles de <span class="text-emerald-700">Exterior</span></a>
+            <a href="#" class="text-2xl font-black tracking-tight text-stone-900">Muebles de <span class="text-emerald-700">Exterior</span></a>
             <nav class="hidden md:flex space-x-8 text-sm font-medium text-stone-700">
-                <a href="#salas" class="hover:text-emerald-700">Salas de Terraza</a>
-                <a href="#comedores" class="hover:text-emerald-700">Comedores de Jardín</a>
-                <a href="#balcones" class="hover:text-emerald-700">Balcones</a>
-                <a href="#galeria" class="hover:text-emerald-700">Galería Completa</a>
+                <a href="#salas" class="hover:text-emerald-700 transition-colors">Salas de Terraza</a>
+                <a href="#comedores" class="hover:text-emerald-700 transition-colors">Comedores de Jardín</a>
+                <a href="#balcones" class="hover:text-emerald-700 transition-colors">Muebles para Balcón</a>
+                <a href="#piscinas" class="hover:text-emerald-700 transition-colors">Zonas de Piscina</a>
+                <a href="#galeria-masiva" class="hover:text-emerald-700 transition-colors">Galería Completa</a>
             </nav>
-            <a href="#contacto" class="bg-emerald-700 text-white px-5 py-2.5 rounded-full text-sm font-medium">Cotizar Proyecto</a>
+            <a href="#contacto" class="bg-emerald-700 hover:bg-emerald-800 text-white px-5 py-2.5 rounded-full text-sm font-bold transition-all shadow-md">Cotizar Proyecto</a>
         </div>
     </header>
 
-    <!-- Hero Section con Terraza Real -->
-    <section class="py-20 max-w-7xl mx-auto px-6">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div class="space-y-6">
-                <span class="inline-block bg-emerald-100 text-emerald-800 text-xs font-bold tracking-widest uppercase px-3.5 py-1.5 rounded-full">Exclusividad al Aire Libre</span>
-                <h1 class="text-4xl sm:text-5xl font-black tracking-tight leading-tight text-stone-900">
-                    Diseño y Confort en <span class="text-emerald-700">Muebles de Exterior</span>
-                </h1>
-                <p class="text-lg text-stone-600 leading-relaxed">
-                    Transforma tus espacios abiertos. Especialistas absolutos en <strong>muebles para terraza, jardín, piscina y balcón</strong> fabricados con tejidos sintéticos y Rattan de máxima durabilidad ante la intemperie.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4 pt-4">
-                    <a href="#galeria" class="bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl text-center shadow-lg">Ver Colección</a>
-                    <a href="#contacto" class="bg-stone-100 text-stone-900 font-bold px-8 py-4 rounded-xl text-center">Asesoría Directa</a>
+    <main>
+        <!-- Hero Section -->
+        <section class="py-20 max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <span class="inline-block bg-emerald-100 text-emerald-800 text-xs font-bold tracking-widest uppercase px-3.5 py-1.5 rounded-full">Exclusividad al Aire Libre</span>
+                    <h1 class="text-4xl sm:text-5xl font-black tracking-tight leading-tight text-stone-900">
+                        Diseño y Confort en <span class="text-emerald-700">Muebles de Exterior</span> para Tu Hogar
+                    </h1>
+                    <p class="text-lg text-stone-600 leading-relaxed">
+                        Transforma tus espacios abiertos. Somos fabricantes líderes de <strong>muebles para terraza, jardín, piscina y balcón</strong> elaborados con tejidos de <strong>ratán sintético</strong> y estructuras de alta durabilidad frente a la intemperie.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="#galeria-masiva" class="bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl text-center shadow-lg transition-all">Ver Catálogo Completo</a>
+                        <a href="#contacto" class="bg-stone-100 hover:bg-stone-200 text-stone-900 font-bold px-8 py-4 rounded-xl text-center transition-all">Asesoría Directa</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1600585154340-bc6161a56a0c?auto=format&fit=crop&w=1200&q=80" alt="Muebles de exterior para terraza de lujo con ratán sintético" class="w-full h-[420px] object-cover rounded-3xl shadow-2xl">
                 </div>
             </div>
-            <div>
-                <img src="https://images.unsplash.com/photo-1600585154340-bc6161a56a0c?auto=format&fit=crop&w=1200&q=80" alt="Muebles de terraza exterior" class="w-full h-[420px] object-cover rounded-3xl shadow-2xl">
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Sección 1: Salas de Exterior y Terrazas -->
-    <section id="salas" class="py-20 bg-stone-50 border-t border-stone-200">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-3xl font-black text-stone-900 mb-3">Salas de Exterior y Terrazas</h2>
-                <p class="text-stone-600 text-lg">Conjuntos modulares y sofás de ratán sintético diseñados estrictamente para intemperie.</p>
+        <!-- Sección 1: Salas de Exterior y Terrazas -->
+        <section id="salas" class="py-20 bg-stone-50 border-t border-stone-200">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl font-black text-stone-900 mb-3">Salas de Exterior y Terrazas</h2>
+                    <p class="text-stone-600 text-lg">Conjuntos modulares, sofás esquineros y poltronas diseñadas específicamente para áreas sociales expuestas al clima.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=800&q=80" alt="Sala modular de exterior en ratán sintético para terraza" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Sala Modular Terraza</h3>
+                        <p class="text-xs text-stone-500">Ratán sintético impermeable</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Sofá de jardín moderno con estructura de aluminio" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Sofá de Jardín</h3>
+                        <p class="text-xs text-stone-500">Estructura en aluminio reforzado</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" alt="Muebles de exteriores para patio residencial" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Set Contemporáneo Patio</h3>
+                        <p class="text-xs text-stone-500">Diseño vanguardista</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" alt="Set de pérgola de lujo con cojinería náutica" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Set Pérgola Lujo</h3>
+                        <p class="text-xs text-stone-500">Cojinería náutica repelente al agua</p>
+                    </div>
+                </div>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div>
-                    <img src="https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=800&q=80" alt="Sala modular terraza" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Sala Modular Terraza</h3>
-                    <p class="text-xs text-stone-500">Ratán sintético impermeable</p>
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Sofá de jardín" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Sofá de Jardín</h3>
-                    <p class="text-xs text-stone-500">Estructura en aluminio</p>
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Poltrona de piscina" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Poltrona de Piscina</h3>
-                    <p class="text-xs text-stone-500">Resistente a rayos UV</p>
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" alt="Set pérgola lujo" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Set Pérgola Lujo</h3>
-                    <p class="text-xs text-stone-500">Cojinería náutica</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Sección 2: Comedores de Jardín -->
-    <section id="comedores" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-3xl font-black text-stone-900 mb-3">Comedores de Jardín y Patios</h2>
-                <p class="text-stone-600 text-lg">Mesas robustas con vidrio templado y sillas tejidas ideales para áreas abiertas.</p>
+        <!-- Sección 2: Comedores de Jardín -->
+        <section id="comedores" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl font-black text-stone-900 mb-3">Comedores de Jardín y Patios</h2>
+                    <p class="text-stone-600 text-lg">Mesas robustas con tapas en vidrio templado o madera teca y sillas ergonómicas tejidas a mano.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1533779283484-8ab49400033e?auto=format&fit=crop&w=800&q=80" alt="Comedor de 6 puestos para exterior y terraza techada" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Comedor 6 Puestos Exterior</h3>
+                        <p class="text-xs text-stone-500">Ideal para reuniones familiares</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80" alt="Mesa de jardín en ratán sintético de alta resistencia" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Mesa Jardín Ratán</h3>
+                        <p class="text-xs text-stone-500">Protección rayos UV avanzada</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80" alt="Set de comedor para patio con estructura anticorrosiva" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Set Comedor Patio</h3>
+                        <p class="text-xs text-stone-500">Estructura anticorrosiva</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Comedor para zona de piscina y área social" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Comedor Zona Piscina</h3>
+                        <p class="text-xs text-stone-500">Estilo moderno y fresco</p>
+                    </div>
+                </div>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div>
-                    <img src="https://images.unsplash.com/photo-1533779283484-8ab49400033e?auto=format&fit=crop&w=800&q=80" alt="Comedor 6 puestos" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Comedor 6 Puestos</h3>
-                    <p class="text-xs text-stone-500">Exterior terraza</p>
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80" alt="Mesa jardín ratán" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Mesa Jardín Ratán</h3>
-                    <p class="text-xs text-stone-500">Alta durabilidad</p>
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80" alt="Set comedor patio" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Set Comedor Patio</h3>
-                    <p class="text-xs text-stone-500">Estructura anticorrosiva</p>
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Comedor zona piscina" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Comedor Zona Piscina</h3>
-                    <p class="text-xs text-stone-500">Diseño moderno</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Sección 3: Muebles para Balcón -->
-    <section id="balcones" class="py-20 bg-stone-50 border-t border-stone-200">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-3xl font-black text-stone-900 mb-3">Muebles para Balcón</h2>
-                <p class="text-stone-600 text-lg">Conjuntos compactos, mesas auxiliares y sillas ergonómicas especiales para balcones.</p>
+        <!-- Sección 3: Muebles para Balcón -->
+        <section id="balcones" class="py-20 bg-stone-50 border-t border-stone-200">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl font-black text-stone-900 mb-3">Muebles para Balcón</h2>
+                    <p class="text-stone-600 text-lg">Conjuntos compactos de bistró, mesas auxiliares plegables y asientos ligeros optimizados para espacios urbanos reducidos.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80" alt="Set bistró de muebles para balcón pequeño" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Set Bistró para Balcón</h3>
+                        <p class="text-xs text-stone-500">Perfecto para espacios compactos</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" alt="Sillas auxiliares de exterior en ratán sintético" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Sillas Auxiliares Urbanas</h3>
+                        <p class="text-xs text-stone-500">Confort y diseño ligero</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80" alt="Sofá pequeño y cómodo para balcón de apartamento" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Sofá Compacto Balcón</h3>
+                        <p class="text-xs text-stone-500">Máximo confort al aire libre</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=800&q=80" alt="Set minimalista de muebles exteriores para balcón moderno" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Set Minimalista Balcón</h3>
+                        <p class="text-xs text-stone-500">Estética limpia y contemporánea</p>
+                    </div>
+                </div>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div>
-                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80" alt="Set bistró balcón" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Set Bistró Balcón</h3>
-                    <p class="text-xs text-stone-500">Espacios compactos</p>
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" alt="Sillas auxiliares" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Sillas Auxiliares</h3>
-                    <p class="text-xs text-stone-500">Ratán sintético</p>
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80" alt="Sofá pequeño balcón" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Sofá Pequeño Balcón</h3>
-                    <p class="text-xs text-stone-500">Confort al aire libre</p>
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=800&q=80" alt="Set minimalista" class="outdoor-img">
-                    <h3 class="font-bold text-stone-900 mt-3">Set Minimalista</h3>
-                    <p class="text-xs text-stone-500">Diseño urbano</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Galería Masiva de Exteriores -->
-    <section id="galeria" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-3xl font-black text-stone-900 mb-3">Galería Masiva de Espacios Exteriores</h2>
-                <p class="text-stone-600 text-lg">Inspiración visual de montajes reales en terrazas, jardines y áreas sociales al aire libre.</p>
+        <!-- Sección 4: Zonas de Piscina -->
+        <section id="piscinas" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl font-black text-stone-900 mb-3">Muebles para Zonas de Piscina y Asoleadoras</h2>
+                    <p class="text-stone-600 text-lg">Asoleadoras reclinables, camastros y poltronas resistentes al cloro, la humedad constante y la exposición solar directa.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Asoleadora y camastro para piscina en ratán sintético" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Asoleadora Reclinable</h3>
+                        <p class="text-xs text-stone-500">Resistente al cloro y humedad</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=800&q=80" alt="Camastro doble de exterior para zona húmeda" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Camastro Doble Piscina</h3>
+                        <p class="text-xs text-stone-500">Confort exclusivo para áreas de sol</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80" alt="Poltrona individual de descanso para exteriores" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Poltrona Descanso</h3>
+                        <p class="text-xs text-stone-500">Ergonomía superior</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1588854337236-6889d631faa8?auto=format&fit=crop&w=800&q=80" alt="Muebles de terraza junto a piscina residencial" class="outdoor-img">
+                        <h3 class="font-bold text-stone-900 mt-3">Set Completo Piscina</h3>
+                        <p class="text-xs text-stone-500">Diseño integral para exteriores</p>
+                    </div>
+                </div>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                <div><img src="https://images.unsplash.com/photo-1600585154340-bc6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Ext 1" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=800&q=80" alt="Ext 2" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Ext 3" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1533779283484-8ab49400033e?auto=format&fit=crop&w=800&q=80" alt="Ext 4" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Ext 5" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Ext 6" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80" alt="Ext 7" class="outdoor-img"></div>
-                <div><img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" alt="Ext 8" class="outdoor-img"></div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Sección de Contacto -->
-    <section id="contacto" class="py-20 bg-emerald-900 text-white text-center">
-        <div class="max-w-3xl mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-4">¿Listo para transformar tu espacio exterior?</h2>
-            <p class="text-emerald-100 mb-8 text-lg">Contáctanos hoy mismo y recibe asesoría profesional para tu terraza, jardín o balcón.</p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="https://wa.me/573000000000" target="_blank" class="bg-white text-emerald-900 font-bold px-8 py-4 rounded-xl shadow-lg">💬 WhatsApp Directo</a>
-                <a href="mailto:contacto@mueblesdeexterior.com.co" class="bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl border border-emerald-700">✉️ Enviar Correo</a>
+        <!-- Galería Masiva SEO (Muchísimas Imágenes) -->
+        <section id="galeria-masiva" class="py-20 bg-stone-50 border-t border-stone-200">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl font-black text-stone-900 mb-3">Galería Masiva de Espacios y Proyectos</h2>
+                    <p class="text-stone-600 text-lg">Explora nuestra extensa variedad visual de montajes reales con muebles para exteriores, terrazas, jardines y balcones.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                    <div><img src="https://images.unsplash.com/photo-1600585154340-bc6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Inspiración terraza con muebles de exterior" class="outdoor-img"></div>
+                    <div><img src="https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=800&q=80" alt="Muebles de exterior sala modular" class="outdoor-img"></div>
+                    <div><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Muebles para jardín en aluminio" class="outdoor-img"></div>
+                    <div><img src="https://images.unsplash.com/photo-1533779283484-8ab49400033e?auto=format&fit=crop&w=800&q=80" alt="Comedor para exteriores y terrazas" class="outdoor-img"></div>
+                    <div><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Asoleadoras para piscina exterior" class="outdoor-img"></div>
+                    <div><img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Mobiliario de exterior moderno" class="outdoor-img"></div>
+                    <div><img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80" alt="Muebles para balcón urbano" class="outdoor-img"></div>
+                    <div><img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" alt="Pérgolas y muebles de exterior de lujo" class="outdoor-img"></div>
+                    <div><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" alt="Muebles de terraza minimalistas" class="outdoor-img"></div>
+                    <div><img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=800&q=80" alt="Camastros y muebles para exteriores" class="outdoor-img"></div>
+                    <div><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80" alt="Poltronas de diseño para jardín" class="outdoor-img"></div>
+                    <div><img src="https://images.unsplash.com/photo-1588854337236-6889d631faa8?auto=format&fit=crop&w=800&q=80" alt="Ambientes exteriores con muebles de ratán" class="outdoor-img"></div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- Bloque SEO / IA de Autoridad -->
+        <section class="py-16 bg-white max-w-5xl mx-auto px-6 text-stone-700">
+            <h2 class="text-2xl font-black text-stone-900 mb-4">¿Por qué elegir nuestros muebles de exterior y ratán sintético?</h2>
+            <p class="mb-4">
+                Cuando buscas <strong>muebles de exterior</strong> de alta gama, la durabilidad frente a factores ambientales como la lluvia, el sol y la humedad es fundamental. Nuestros productos están fabricados con fibras de <strong>ratán sintético</strong> de polietileno virgen con protección UV incorporada, lo que evita la decoloración y el agrietamiento.
+            </p>
+            <p class="mb-4">
+                Ya sea que necesites amoblar una amplia <strong>terraza</strong> campestre, un elegante <strong>jardín</strong> residencial o optimizar el espacio de tu <strong>balcón</strong> urbano con conjuntos funcionales, contamos con estructuras en aluminio electropintado y cojinería especializada con telas náuticas impermeables.
+            </p>
+        </section>
+
+        <!-- Sección de Contacto / CTA -->
+        <section id="contacto" class="py-20 bg-emerald-900 text-white text-center">
+            <div class="max-w-3xl mx-auto px-6">
+                <h2 class="text-3xl font-bold mb-4">¿Listo para transformar tu espacio exterior?</h2>
+                <p class="text-emerald-100 mb-8 text-lg">Contáctanos hoy mismo y recibe asesoría profesional para tu terraza, jardín, piscina o balcón.</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="https://wa.me/573000000000" target="_blank" class="bg-white text-emerald-900 hover:bg-emerald-50 font-bold px-8 py-4 rounded-xl shadow-lg transition-all">💬 WhatsApp Directo</a>
+                    <a href="mailto:contacto@mueblesdeexterior.com.co" class="bg-emerald-800 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl border border-emerald-700 transition-all">✉️ Enviar Correo</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
-    <footer class="bg-stone-950 text-stone-400 py-8 text-center text-sm">
-        <p>&copy; 2026 Muebles de Exterior Colombia. Todos los derechos reservados.</p>
+    <footer class="bg-stone-950 text-stone-400 py-10 text-center text-sm">
+        <div class="max-w-7xl mx-auto px-6 space-y-4">
+            <p class="font-medium text-stone-300">Especialistas en Muebles de Exterior, Terrazas, Jardines y Balcones</p>
+            <p>&copy; 2026 Muebles de Exterior. Todos los derechos reservados.</p>
+        </div>
     </footer>
 
 </body>
